@@ -1,0 +1,12 @@
+#! Rscript caesar_cypher.r > r.out
+Test output:
+[1] "NMOLnmazol._?è"
+
+Running...
+Encoding string:
+[1] "Hey! This is cool, and you have no idea what I'm saying. Boo!"
+[1] "Url! Guvf vf pbby, naq lbh unir ab vqrn jung V'z fnlvat. Obb!"
+
+Decoding string:
+[1] "Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!"
+[1] "Caesar cipher? I much prefer Caesar salad!"

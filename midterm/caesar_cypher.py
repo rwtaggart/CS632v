@@ -25,7 +25,15 @@ def decode_str(s: str):
 
 
 if __name__ == '__main__':
-    test1 = 'this is a thing!'
+    testlst = ['A', 'Z', 'B', 'Y', 'a', 'z', 'n', 'm', 'b', 'y', '.', '_', '?', 'è']
+    print("Testing output:")
+    print(''.join([encode_str(c) for c in testlst]))
+    print()
 
-    print("Thing.")
+    plain = "Hey! This is cool, and you have no idea what I'm saying. Boo!"
+    cypher = encode_str(plain)
+    print('Encoding string \n  "{}": \n  "{}"'.format(plain, cypher))
 
+    cypher = "Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!"
+    plain = decode_str(cypher)
+    print('Decoding string \n  "{}": \n  "{}"'.format(cypher, plain))

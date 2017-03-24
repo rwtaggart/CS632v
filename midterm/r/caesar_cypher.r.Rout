@@ -1,0 +1,74 @@
+
+R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # This is a simple R file
+> # RW Taggart
+> # 2017.3.16
+> # CS632v - Midterm
+> 
+> mod.char <- function(c, shift) {
++   #> charToRaw('a')
++   stopifnot((length(c) == 1 && 0 <= abs(shift) && abs(shift) <= 25))
++   if (! ((utf8ToInt('A') <= utf8ToInt(c) && utf8ToInt(c) <= utf8ToInt('Z'))
++       || (utf8ToInt('a') <= utf8ToInt(c) && utf8ToInt(c) <= utf8ToInt('z'))
++      )) {
++     return(c)
++   }
++   if (c == toupper(c)) {
++     norm <- utf8ToInt('A')
++   }
++   else {
++     norm <- utf8ToInt('a')
++   }
++ 
++   mc <- intToUtf8(((utf8ToInt(c) - norm + shift) %% 26) + norm)
++   return(mc)
++ }
+> 
+> enc.str <- function(plain) {
++   # Example
++   #> utf8ToInt('Hello')
++   # for (c in strsplit(t, ""))
++   # mod.char()
++   cypher <- c()
++   sp <- strsplit(plain, "")
++   print(sp)
++   for (ch in sp[[1]]) {
++     print(ch)
++     cypher <- c(cypher, mod.char(ch, 13))
++   }
++   cypher <- paste(cypher, collapse="")
++   return(cypher)
++ }
+> 
+> dec.str <- function(cypher) {
++   plain <- c()
++   for (c in strsplit(plain, "")) {
++     plain <- c(plain, mod.char(c, 13))
++   }
++   plain <- paste(plain, collapse="")
++   return(plain)
++ }
+> 
+> print("running...")
+[1] "running..."
+> 
+> proc.time()
+   user  system elapsed 
+  0.128   0.024   0.153 

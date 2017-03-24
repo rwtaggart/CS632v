@@ -1,0 +1,10 @@
+#! python caesar_cypher.py > py.out
+Testing output:
+NMOLnmazol._?è
+
+Encoding string 
+  "Hey! This is cool, and you have no idea what I'm saying. Boo!": 
+  "Url! Guvf vf pbby, naq lbh unir ab vqrn jung V'z fnlvat. Obb!"
+Decoding string 
+  "Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!": 
+  "Caesar cipher? I much prefer Caesar salad!"
