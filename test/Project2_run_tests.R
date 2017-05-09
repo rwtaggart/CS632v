@@ -10,4 +10,4 @@ library(testthat)
 # source('Project2_test.r')
 
 test_results <- test_dir('.', reporter="summary")
-test_results
+print(test_results)

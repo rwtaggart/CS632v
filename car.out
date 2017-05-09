@@ -1,0 +1,10 @@
+
+(I): Showing info for <package:car>
+	 Primative Functions 
+, 
+	 Non-Primative Functions 
+adaptiveKernel, Anova, av.plot, av.plots, avPlot, avPlots, basicPower, basicPowerAxis, bc, bcPower, bcPowerAxis, Boot, bootCase, box.cox, box.cox.powers, box.cox.var, box.tidwell, boxCox, boxCoxVariable, Boxplot, boxTidwell, carWeb, ceres.plot, ceres.plots, ceresPlot, ceresPlots, compareCoefs, confidence.ellipse, confidenceEllipse, contr.Helmert, contr.Sum, contr.Treatment, cookd, cr.plot, cr.plots, crp, crPlot, crPlots, data.ellipse, dataEllipse, deltaMethod, densityPlot, dfbetaPlots, dfbetasPlots, durbin.watson, durbinWatsonTest, dwt, ellipse, estimateTransform, gamLine, hccm, Identify3d, infIndexPlot, influenceIndexPlot, influencePlot, inverseResponsePlot, invResPlot, invTranEstimate, invTranPlot, levene.test, leveneTest, leverage.plot, leverage.plots, leveragePlot, leveragePlots, lht, linear.hypothesis, linearHypothesis, linearHypothesis.default, loessLine, logit, makeHypothesis, Manova, marginalModelPlot, marginalModelPlots, matchCoefs, mcPlot, mcPlots, mmp, mmps, ncv.test, ncvTest, nextBoot, outlier.test, outlierTest, panel.car, powerTransform, printHypothesis, probabilityAxis, qq.plot, qqp, qqPlot, quantregLine, recode, Recode, regLine, residualPlot, residualPlots, scatter3d, scatterplot, scatterplot.matrix, scatterplotMatrix, showLabels, sigmaHat, skewPower, slp, some, sp, spm, spread.level.plot, spreadLevelPlot, subsets, symbox, testTransform, vif, wcrossprod, which.names, whichNames, yjPower, yjPowerAxis, 
+	 Constants 
+, 
+	 Objects 
+Adler, AMSsurvey, Angell, Anscombe, Baumann, Bfox, Blackmore, Burt, CanPop, Chile, Chirot, Cowles, Davis, DavisThin, Depredations, Duncan, Ericksen, Florida, Freedman, Friendly, Ginzberg, Greene, Guyer, Hartnagel, Highway1, KosteckiDillon, Leinhardt, LoBD, Mandel, Migration, Moore, Mroz, OBrienKaiser, Ornstein, Pottery, Prestige, Quartet, Robey, Sahlins, Salaries, SLID, Soils, States, Transact, UN, USPop, Vocab, WeightLoss, Womenlf, Wong, Wool, 
